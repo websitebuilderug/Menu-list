@@ -1,6 +1,6 @@
-:roots {
+:root {
     --bg: #F5F7FA;
-    --menu-bg: #E8oof2;
+    --menu-bg: #E8F0F2;
     --menu-shadow-dark: #cc030c;
     --menu-shadow-light: #ffffff;
     --text: #d8dde1;
@@ -10,7 +10,7 @@
     --transition: 0.3s ease;
 }
 
-head {
+body {
     background: var(--bg);
     font-family: 'Inter', sans-serif;
     display: flex;
@@ -45,7 +45,8 @@ head {
     display: inline-block;
 }
 
-.menu-list a:hover,.menu-list a.active {
+.menu-list a:hover,
+.menu-list a.active {
     background: var(--bg);
     color: var(--text-active);
     box-shadow: inset 6px 6px 12px var(--menu-shadow-dark), -6px -6px 12px var(--menu-shadow-light);
